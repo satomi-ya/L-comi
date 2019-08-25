@@ -44,16 +44,22 @@ html {
         top: 28%;
         left: 34%;
         p {
+          margin-top: 30px;
           color: #fff;
           text-align: center;
-
+          line-height: 50px;
+        }
+        .logotitle {
+          font-size: 60px;
+          font-weight: bold;
         }
       }
     }
     .product_message {
       .product_messagebox {
         background-color: #ff9234;
-        height: 911.31px;
+        height: 800px;
+        padding-top: 180px;
         h1, p {
           color: #fff;
           text-align: center;
@@ -74,12 +80,18 @@ html {
         .service_description {
           background-color: #ffeed5;
           height: 689px;
+          text-align: center;
           h2 {
+            padding-top: 130px;
+            margin-bottom: 50px;
             color: #ff9234;
             font-size: 48px;
+            font-weight: normal;
           }
           .schoolboxs {
             display: flex;
+            justify-content: center;
+            align-items: center;
             .schoolbox {
               background-color: #fff;
               width: 526px;
@@ -88,8 +100,14 @@ html {
               margin-right: 10px;
               text-align: center;
               .shooltitle {
+                padding-top: 80px;
+                margin-bottom: 40px;
                 color: #ffcd3c;
                 font-size: 36px;
+              }
+              p {
+                line-height: 30px;
+                color: #505050;
               }
             }
           }
@@ -99,6 +117,11 @@ html {
           display: flex;
           justify-content: center;
           align-items: center;
+          position: relative;
+          img {
+            position: absolute;
+            left: 10%;
+          }
           .service_startbox {
             width: 1259px;
             height: 477px;
@@ -109,6 +132,7 @@ html {
             }
             .service_start_title {
               font-size: 60px;
+              margin-top: 50px;
               .service_start_message {
                 font-size: 40px;
               }
@@ -118,9 +142,10 @@ html {
               display: flex;
               justify-content: flex-end;
               .reservation, .estimate {
+                font-size: 30px;
                 width: 432px;
                 height: 91.01px;
-                margin: 50px 10px;
+                margin: 80px 10px;
               }
               .reservation {
                 background-color: #01aef0;
